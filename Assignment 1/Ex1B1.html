@@ -1,0 +1,26 @@
+<!--Q: 1) Write a PHP script for the following: Design a form to accept two numbers
+from the user. Give options to choose the arithmetic operation (use radio buttons).
+Display the result on the next form. (Use the concept of function and default
+parameters. Use ‘include’ construct or require stmt)-->
+<html>
+<head><title>PHP Program</title></head>
+<body bgcolor="#a1a1ff">
+<form action="Ex1B1.php" method="GET">
+<style>
+pre{
+	font-size:25px;
+}
+</style>
+<pre>
+Enter first Number: <input type="number" name="num1"><br>
+Enter Second Number: <input type="number" name="num2"><br>
+Choose one of the following action:<br>
+<input type="Radio" name="operation" value="+">+<br>
+<input type="Radio" name="operation" value="-">-<br>
+<input type="Radio" name="operation" value="*">*<br>
+<input type="Radio" name="operation" value="/">/<br>
+<input type="Submit" value="Submit" size="50"> <input type="reset" value="Clear">
+</pre>
+</form>
+</body>
+</html>
